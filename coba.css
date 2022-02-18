@@ -1,0 +1,46 @@
+.gambar {
+    position: absolute;
+}
+.container-gambar {
+  /* background-image: url(image/12.jpg); */
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: black; */
+  border: 5px solid red;
+  width: 100%;
+  /* height: auto; */
+  box-sizing: border-box;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+.gambar-porto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 200px;
+  background-color: aqua;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.gambar-porto img {
+  width: 100%;
+}
+
+.hover-gambar {
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.575);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+}
+
+.hover-gambar:hover {
+  opacity: 1;
+}
